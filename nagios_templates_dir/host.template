@@ -1,0 +1,7 @@
+define host {
+  use common-host ; Name of host template to use
+  host_name       {{host_name}}
+  alias           {{host_name}}
+  check_command   {{check_command}}
+  address         {{private_ip_address}}
+}
