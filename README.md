@@ -11,11 +11,9 @@ The nagios-aws-autoconfig tool will automatically create nagios configuration fi
 
 # Example Use:
 1. create templates in nagios_templates_dir
-2. run nagios_aws_autoconfig.py
+2. run nagios_aws_autoconfig.py as follows:
 
-
-    nagios_aws_autoconfig.py
-
+        nagios_aws_autoconfig.py
 
 # Example Use (with Options):
 
